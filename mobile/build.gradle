@@ -1,0 +1,38 @@
+apply plugin: 'com.android.application'
+
+def appVersionMajor = 1
+def appVersionMinor = 0
+def appVersionPatch = 0
+def appVersionCode = 1
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.1"
+
+    defaultConfig {
+        applicationId "sodatracker.apptastic.com"
+        minSdkVersion 21
+        targetSdkVersion 23
+        versionCode appVersionCode
+        versionName "${appVersionMajor}.${appVersionMinor}.${appVersionPatch}"
+    }
+    buildTypes {
+        debug{
+            buildConfigField "Boolean", "DEBUG_MODE", "true"
+        }
+        release {
+            buildConfigField "Boolean", "DEBUG_MODE", "false"
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:appcompat-v7:23.0.1'
+    compile 'com.android.support:cardview-v7:23.0.1'
+    compile 'com.android.support:recyclerview-v7:23.0.1'
+    compile 'com.google.code.gson:gson:2.3.1'
+    compile 'com.android.support:design:23.0.1'
+}

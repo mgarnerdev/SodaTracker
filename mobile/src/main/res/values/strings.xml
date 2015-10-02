@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">SodaTracker</string>
+
+    <string name="example_soda_card_label">Mountain Dew</string>
+    <string name="soda_card_add">+</string>
+    <string name="soda_card_subtract">&#8212;</string>
+
+    <string name="soda_card_twelve_packs_label">12-Packs</string>
+    <string name="example_soda_card_twelve_pack_display">3</string>
+
+    <string name="soda_card_cans_label">Cans</string>
+    <string name="example_soda_card_cans_display">11</string>
+    <string name="title_activity_add_soda">AddSodaActivity</string>
+
+    <string name="activity_add_soda">Add Soda</string>
+    <string name="menu_add_soda_add">ADD</string>
+    <string name="add_soda_activity_brand_hint">Soda name</string>
+
+</resources>
