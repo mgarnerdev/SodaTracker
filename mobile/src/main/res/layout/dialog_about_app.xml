@@ -11,8 +11,7 @@
         android:layout_height="80dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
-        android:src="@mipmap/ic_launcher"
-        />
+        android:src="@mipmap/ic_launcher"/>
 
     <LinearLayout
         android:id="@+id/ll_info"
