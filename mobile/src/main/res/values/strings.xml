@@ -1,6 +1,13 @@
 <resources>
     <string name="app_name">SodaTracker</string>
 
+    <string name="menu_main_activity_about_the_app">About the App</string>
+    <string name="menu_main_activity_share_the_app">Share the App</string>
+    <string name="menu_main_activity_rate_the_app">Rate the App</string>
+
+    <string name="share_app_subject">Check out SodaTracker!</string>
+    <string name="share_app_message">Do you need to keep track of the soda cans in your fridge?\nThen this app is just for you:\nhttp://bit.ly/1LojUeW</string>
+
     <string name="example_soda_card_label">Mountain Dew</string>
     <string name="soda_card_add">+</string>
     <string name="soda_card_subtract">&#8212;</string>
@@ -15,5 +22,4 @@
     <string name="activity_add_soda">Add Soda</string>
     <string name="menu_add_soda_add">ADD</string>
     <string name="add_soda_activity_brand_hint">Soda name</string>
-
 </resources>

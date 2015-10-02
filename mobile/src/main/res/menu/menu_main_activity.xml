@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.sodatracker.apptastic.sodatracker.activities.MainActivity">
+    <item
+        android:id="@+id/action_rate_the_app"
+        android:title="@string/menu_main_activity_rate_the_app"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_share_the_app"
+        android:title="@string/menu_main_activity_share_the_app"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_about_the_app"
+        android:title="@string/menu_main_activity_about_the_app"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_app_version"
+        android:title="@string/menu_main_activity_about_the_app"
+        app:showAsAction="never"/>
+</menu>

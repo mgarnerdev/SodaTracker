@@ -1,4 +1,4 @@
-package com.sodatracker.apptastic.sodatracker;
+package com.sodatracker.apptastic.sodatracker.activities;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
@@ -10,7 +10,16 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.support.v7.widget.helper.ItemTouchHelper;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
+
+import com.sodatracker.apptastic.sodatracker.R;
+import com.sodatracker.apptastic.sodatracker.objects.Soda;
+import com.sodatracker.apptastic.sodatracker.adapters.SodaAdapter;
+import com.sodatracker.apptastic.sodatracker.SodaTrackerApp;
+import com.sodatracker.apptastic.sodatracker.utilities.DialogUtils;
+import com.sodatracker.apptastic.sodatracker.utilities.Utils;
 
 import java.util.ArrayList;
 
@@ -83,6 +92,33 @@ public class MainActivity extends AppCompatActivity implements SodaAdapter.SodaC
                 SodaTrackerApp.addMoreSoda(MainActivity.this);
             }
         });
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu_main_activity, menu);
+        MenuItem miAppVersion = menu.findItem(R.id.action_app_version);
+        miAppVersion.setTitle(SodaTrackerApp.MENU_APP_VERSION);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.action_rate_the_app:
+                startActivity(Utils.rateApp(this));
+                break;
+            case R.id.action_share_the_app:
+                startActivity(Utils.shareApp(this));
+                break;
+            case R.id.action_about_the_app:
+                DialogUtils.showAboutAppDialog(this);
+                break;
+            case R.id.action_app_version:
+                startActivity(Utils.rateApp(this));
+                break;
+        }
+        return super.onOptionsItemSelected(item);
     }
 
     @Override

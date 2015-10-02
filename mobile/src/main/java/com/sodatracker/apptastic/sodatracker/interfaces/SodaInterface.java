@@ -1,4 +1,4 @@
-package com.sodatracker.apptastic.sodatracker;
+package com.sodatracker.apptastic.sodatracker.interfaces;
 
 /**
  * Created by mgarner on 10/2/2015.

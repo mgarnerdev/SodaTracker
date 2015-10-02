@@ -8,6 +8,9 @@ import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 
 import com.google.gson.Gson;
+import com.sodatracker.apptastic.sodatracker.activities.AddSodaActivity;
+import com.sodatracker.apptastic.sodatracker.activities.MainActivity;
+import com.sodatracker.apptastic.sodatracker.objects.Soda;
 
 import java.util.ArrayList;
 
@@ -20,6 +23,7 @@ public class SodaTrackerApp extends Application {
     public static final boolean DEBUG_METHOD_CALLS = false;
 
     public static final String SP_SODA_ARRAY_KEY = "sodaArrayListKey";
+    public static final String MENU_APP_VERSION = "Version " + BuildConfig.VERSION_NAME;
 
     @Override
     public void onCreate() {

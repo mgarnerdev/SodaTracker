@@ -1,1 +1,2 @@
-include ':mobile'
+include ':mobile', ':MaterialDialogs'
+project(':MaterialDialogs').projectDir = new File('Libraries/MaterialDialogs')

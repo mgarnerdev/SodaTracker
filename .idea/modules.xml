@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Libraries/MaterialDialogs/MaterialDialogs.iml" filepath="$PROJECT_DIR$/Libraries/MaterialDialogs/MaterialDialogs.iml" />
       <module fileurl="file://$PROJECT_DIR$/SodaTracker.iml" filepath="$PROJECT_DIR$/SodaTracker.iml" />
       <module fileurl="file://$PROJECT_DIR$/mobile/mobile.iml" filepath="$PROJECT_DIR$/mobile/mobile.iml" />
     </modules>

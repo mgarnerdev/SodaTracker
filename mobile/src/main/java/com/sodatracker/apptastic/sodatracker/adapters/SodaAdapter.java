@@ -1,4 +1,4 @@
-package com.sodatracker.apptastic.sodatracker;
+package com.sodatracker.apptastic.sodatracker.adapters;
 
 import android.support.v7.widget.CardView;
 import android.support.v7.widget.RecyclerView;
@@ -8,7 +8,9 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
 
-import java.net.InterfaceAddress;
+import com.sodatracker.apptastic.sodatracker.R;
+import com.sodatracker.apptastic.sodatracker.objects.Soda;
+
 import java.util.ArrayList;
 
 /**

@@ -1,4 +1,4 @@
-package com.currantcreekoutfitters.utility;
+package com.sodatracker.apptastic.sodatracker.utilities;
 
 import android.util.Log;
 

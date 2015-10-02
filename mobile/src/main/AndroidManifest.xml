@@ -13,7 +13,7 @@
         android:theme="@style/AppTheme"
         tools:ignore="UnusedAttribute">
         <activity
-            android:name=".MainActivity"
+            android:name=".activities.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme">
             <intent-filter>
@@ -23,13 +23,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".AddSodaActivity"
+            android:name=".activities.AddSodaActivity"
             android:label="@string/title_activity_add_soda"
-            android:parentActivityName=".MainActivity"
+            android:parentActivityName=".activities.MainActivity"
             android:theme="@style/AppTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.sodatracker.apptastic.sodatracker.MainActivity"/>
+                android:value=".activities.MainActivity"/>
         </activity>
     </application>
 

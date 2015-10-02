@@ -24,7 +24,7 @@
             android:id="@+id/soda_card_tv_brand_label"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:background="@color/primary_light"
+            android:background="@color/primary"
             android:gravity="center_vertical"
             android:paddingEnd="10dp"
             android:paddingLeft="10dp"

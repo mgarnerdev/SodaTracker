@@ -1,7 +1,6 @@
-package com.sodatracker.apptastic.sodatracker;
+package com.sodatracker.apptastic.sodatracker.activities;
 
 import android.content.Intent;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
@@ -13,6 +12,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.sodatracker.apptastic.sodatracker.R;
+import com.sodatracker.apptastic.sodatracker.objects.Soda;
 
 public class AddSodaActivity extends AppCompatActivity implements View.OnClickListener {
     public static final String CLASS_NAME = AddSodaActivity.class.getName();

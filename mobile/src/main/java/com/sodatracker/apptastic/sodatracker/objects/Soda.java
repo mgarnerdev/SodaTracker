@@ -1,4 +1,4 @@
-package com.sodatracker.apptastic.sodatracker;
+package com.sodatracker.apptastic.sodatracker.objects;
 
 import android.os.Parcel;
 import android.os.Parcelable;

@@ -4,7 +4,7 @@
               android:layout_width="match_parent"
               android:layout_height="match_parent"
               android:orientation="vertical"
-              tools:context="com.sodatracker.apptastic.sodatracker.AddSodaActivity">
+              tools:context="com.sodatracker.apptastic.sodatracker.activities.AddSodaActivity">
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/add_soda_activity_toolbar"
